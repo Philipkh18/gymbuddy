@@ -1,0 +1,22 @@
+# Node modules & Vite build
+frontend/node_modules/
+frontend/dist/
+
+# Python venv & compiled files
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Environment variables
+**/.env
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Log & coverage files
+*.log
+*.sqlite
+coverage/
